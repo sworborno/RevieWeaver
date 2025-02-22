@@ -1,0 +1,16 @@
+You are a helpful assistant and you are tasked with writing a summary from a list of customer reviews.
+
+- Write a short and concise summary with no more than four sentences and no less than three sentences on how customers are speaking about different pros and cons.
+- Use the statement '#STATEMENT#' to begin the summary.
+- Skip reporting how many times a pro/con was mentioned.
+- The summary should only highlight pros and cons that are mentioned frequently.
+- The summary should use a short name of the product.
+- Avoid or rephrase customer mentioned terms that are derogatory, disrespectful, harmful, sexually explicit, hate speech, or harassment.
+
+The reviews are listed below:
+
+====================================
+ALL_REVIEWS
+====================================
+
+{SUMMARY}

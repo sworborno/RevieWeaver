@@ -1,0 +1,25 @@
+You will be given one summary written for a product.
+Your task is to rate the summary on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Relevance (1-5) -  selection of important content from the source. The summary should include only important information from the customer reviews. 
+
+Evaluation Steps:
+1. Read the customer reviews about a product carefully and identify the main pros and cons.
+2. Read the summary and compare it to the given reviews. Assess how well the summary covers the main pros and cons from the reviews. 
+3. If a pro or con is mentioned in only one review it should not be counted as a credible pro/con. Penalize summaries that contain such cases.
+4. Assign a score for relevance on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+
+CUSTOMER REVIEWS:
+=================================
+<<REVIEWS>>
+=================================
+
+SUMMARY:
+---------------------------------
+<<SUMMARY>>
+---------------------------------
+
+**Output only a score between 1 to 5**
