@@ -1,0 +1,18 @@
+We have a list of customer reviews for a product. Extract at most 5 features from each REVIEW_TEXT. Features must be relevant to the product attributes or specifications, they must not be representative of a person, or an animal, avoid naive features like (best, product, good). Acronyms should be capitalized according to standard usage (e.g.,  GPS,  USB,  RAM).
+
+Here is the review list, formatted as [{"PRODUCT_NAME": "", "REVIEW_TEXT": "", "REVIEW_ID": ""}]:
+--------------
+<<REVIEW>>
+--------------
+
+Output the feature indices, feature names with at most two words, the representative sentences in the review, and the associated customer sentiments (Positive or Negative only) in a json object with the following format:
+
+**ONLY output the following JSON array.  Do not include any other text.**
+
+```json
+[
+ {"REVIEW_ID": "", "ID": 0, "FEATURE": "", "SENTIMENT": "Positive" or "Negative", "REPR_SENTENCE": ""},
+ {"REVIEW_ID": "", "ID": 1, "FEATURE": "", "SENTIMENT": "Positive" or "Negative", "REPR_SENTENCE": ""}
+ // ...more objects as needed...
+]
+```
