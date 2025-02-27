@@ -14,9 +14,9 @@ We have provided the reviews in this [file](https://github.com/sworborno/RevieWe
 Use the notebook provided [here](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/aspect-extraction.ipynb) to extract the tuples of (aspect, sentiment, and representative sentence) from each review. 
 
 #### Step 2: Grouping Aspects to Features
-a. Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-dbscan.ipynb) to group aspects using dbscan.
-b. Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-hdbscan.ipynb) to group aspects using hdbscan.
-c. Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-revieweaver.ipynb) to group aspects using ReviewWeaver. 
+- Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-dbscan.ipynb) to group aspects using dbscan.
+- Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-hdbscan.ipynb) to group aspects using hdbscan.
+- Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/topic-modeling-revieweaver.ipynb) to group aspects using ReviewWeaver. 
 
 #### Step 3: Generating Summaries
 Use the [notebook](https://github.com/sworborno/RevieWeaver/blob/main/notebooks/summary-generation-revieweaver-llm.ipynb) to generate summaries using distilled features by RevieWeaver and an LLM.
