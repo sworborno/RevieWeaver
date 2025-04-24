@@ -1,6 +1,12 @@
 ## RevieWeaver: Weaving Together Review Insights by Leveraging LLMs and Semantic Similarity
 
-Accepted in NAACL 2025 Industry Track
+[Accepted in NAACL 2025 Industry Track](https://2025.naacl.org/program/accepted_papers/#industry-track-papers)
+
+[See the camrea ready version](https://github.com/sworborno/RevieWeaver/blob/main/artifacts/NAACL_Ind_2025_camera_ready.pdf)
+
+[See the poster](https://github.com/sworborno/RevieWeaver/blob/main/artifacts/109_ind_RevieWeaver_poster.pdf)
+
+[See the prerecorded video presentation](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2025-04-06/tn73wlc/109_ind_RevieWeaver_prerecording.mp4)
 
 <img src="https://github.com/sworborno/RevieWeaver/blob/main/images/bby-distill-summary-airpods-4.jpg" width="500"/> 
 
